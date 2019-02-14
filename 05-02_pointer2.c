@@ -8,7 +8,7 @@ int main()
 	s = string;
 	while(*s)
 	{
-		putchar( ++*s );
+		putchar(*s);
 		s++;
 	}
 

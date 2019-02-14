@@ -2,7 +2,7 @@
 
 int main()
 {
-	char a;
+	char a ='h';
 	double b;
 	float c;
 	int d;

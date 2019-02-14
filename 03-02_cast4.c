@@ -10,6 +10,9 @@ int main()
 		puts("Failed to allocate memory");
 	else
 		puts("Storage for 16 integers allocated");
+    putchar('\n');
+
+    printf("m is %d", m);
 
 	return(0);
 }

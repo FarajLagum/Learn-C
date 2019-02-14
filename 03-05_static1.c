@@ -2,7 +2,7 @@
 
 void f(void)
 {
-	int x = 0;
+	static int x = 0;
 
 	printf("Value of x is %d\n",x);
 	x++;

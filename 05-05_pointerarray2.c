@@ -6,10 +6,10 @@ int main()
 	int x;
 	int *pf;
 
-	pf = f;
-	for(x=0;x<5;x++)
+	pf = f; //  No ampersand is needed because it is an array.
+	for(x = 0; x < 5; x++)
 	{
-		printf("%d\n",*pf);
+		printf("%d\n", *pf);
 		pf++;
 	}
 

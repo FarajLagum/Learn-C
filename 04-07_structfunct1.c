@@ -1,18 +1,18 @@
 #include <stdio.h>
 #include <string.h>
 
-	struct person {
+	typedef struct  human {
 		char name[32];
 		int age;
 		float iq;
-	};
+	}person;
 
-	void showStruct(struct person p);
+	void showStruct(person p);
 
 int main()
 {
 
-	struct person author;
+	person author;
 
 	strcpy(author.name,"Dan Gookin");
 	author.age = 54;
@@ -23,7 +23,7 @@ int main()
 	return(0);
 }
 
-void showStruct(struct person p)
+void showStruct(person p)
 {
 	printf("Author %s is %d years old\n",
 			p.name,

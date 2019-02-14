@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1550098734 source:c:\users\flagum\documents\c workspace\ex_files_c_furthertopics\exercisefiles\03-01_extern3_add.c
+	<stdio.h>
+
+1550098589 source:c:\users\flagum\documents\c workspace\ex_files_c_furthertopics\exercisefiles\03-01_extern3_manipulate.c
+	<stdio.h>
+
+1550098849 source:c:\users\flagum\documents\c workspace\ex_files_c_furthertopics\exercisefiles\03-01_extern3_main.c
+	<stdio.h>
+

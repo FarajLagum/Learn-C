@@ -8,7 +8,7 @@ int main()
 
 	printf("Type an integer: ");
 	scanf("%d",&a);
-	aroot = sqrt(a);
+	aroot = sqrt(abs(a));
 	printf("The square root of %d is %f\n",a,aroot);
 
 	return(0);

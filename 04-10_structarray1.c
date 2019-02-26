@@ -26,7 +26,8 @@ int main()
 	week[6].temp = 75.2;
 
 	puts("This week's forecast:");
-	for(x=0;x<7;x++)
+
+	for(x=0; x<7; x++)
 		printf("%10s %.1f degrees\n",
 				week[x].day,
 				week[x].temp);
